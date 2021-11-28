@@ -1,0 +1,8 @@
+global-include *txt *py
+global-exclude pyvenv.cfg .gitignore lib64 src/test.py src/NseStockDownload_without_logger_func.py spyder_modules.list .delfiles formatgit.sh
+prune lib64
+prune lib
+prune include
+prune share
+prune bin
+prune .spyproject
